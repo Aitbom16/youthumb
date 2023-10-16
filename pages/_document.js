@@ -9,7 +9,8 @@ class MyDocument extends Document {
                     {/* Add your meta tags, stylesheets, and scripts here */}
                     {/* ... */}
 
-                    {/* Add Google AdSense script */}
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5342472284328375"
+                        crossorigin="anonymous"></script>
                     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <script
                         dangerouslySetInnerHTML={{
