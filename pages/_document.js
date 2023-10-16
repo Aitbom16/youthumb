@@ -24,7 +24,11 @@ class MyDocument extends Document {
                 </Head>
                 <body>
                     <nav className="nav">
-                        {/* ... */}
+                        <ul>
+                            <li><a href="#">Find youtube video tags</a></li>
+                            <li><a href="/posts">New Posts</a></li>
+                            <li><a href="../../posts/privacypolicy">Privacy Policy</a></li>
+                        </ul>
                     </nav>
                     <Main />
                     <NextScript />
