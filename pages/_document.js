@@ -24,7 +24,7 @@ class MyDocument extends Document {
                 </Head>
                 <body>
                     <nav className="nav">
-                       
+                        {/* ... */}
                     </nav>
                     <Main />
                     <NextScript />
@@ -44,7 +44,6 @@ class MyDocument extends Document {
                             How Do I Use the Downloader for YouTube Thumbnails? To use this YouTube downloader step-by-step, refer to the screenshots that are provided. Copying the YouTube video link of the desired thumbnail to download is an easy operation. You may also download YouTube covers with ease.
                         </p>
                         After that, copy and paste the URL into the input box. The website will then automatically create thumbnails for you in various sizes. Once you click the thumbnail download button, your system will quickly save it. Please save the photos if you use an Android device and follow the proper steps if you use an iPhone.
-
                         <p>
                             Is it permissible to download YouTube thumbnails? Yes, downloading thumbnails from YouTube videos is entirely legal. Please be aware, nevertheless, that movies and thumbnails are copyrighted goods. Before reusing an author's work, be sure you have their permission.
                         </p>
