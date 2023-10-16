@@ -3,6 +3,8 @@ import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
     render() {
+        const websiteUrl = "https://www.youtubethambledownload.com/";
+        const twitterHandle = "@youtubethambledownload";
         return (
             <Html lang="en-us">
                 
@@ -10,18 +12,18 @@ class MyDocument extends Document {
                         {/* Add your meta tags, stylesheets, and scripts here */}
                         <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
                         <meta name="keywords" content="YouTube thumbnails, YouTube Thumbnail Downloader, download YouTube thumbnails" />
-                        <meta name="author" content="Your Name" />
+                    <meta name="author" content="https://www.youtubethambledownload.com/" />
                         <meta name="robots" content="index, follow" />
                         <meta property="og:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
                         <meta property="og:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
                         <meta property="og:type" content="website" />
-                        <meta property="og:url" content="https://example.com" />
-                        <meta property="og:image" content="https://example.com/og-image.jpg" />
+                    <meta property="og:url" content="https://www.youtubethambledownload.com" />
+                    <meta property="og:image" content="https://www.youtubethambledownload.com/og-image.jpg" />
                         <meta name="twitter:card" content="summary_large_image" />
                         <meta name="twitter:creator" content="@yourtwitterhandle" />
                         <meta name="twitter:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
                         <meta name="twitter:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
-                        <meta name="twitter:image" content="https://example.com/twitter-image.jpg" />
+                    <meta name="twitter:image" content="https://www.youtubethambledownload.com/twitter-image.jpg" />
 
                         {/* ... */}
 
