@@ -7,53 +7,57 @@ class MyDocument extends Document {
         const twitterHandle = "@youtubethambledownload";
         return (
             <Html lang="en-us">
-                
-                    <Head>
-                        {/* Add your meta tags, stylesheets, and scripts here */}
-                        <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
-                        <meta name="keywords" content="YouTube thumbnails, YouTube Thumbnail Downloader, download YouTube thumbnails" />
+                <Head>
+                    {/* Add your meta tags, stylesheets, and scripts here */}
+                    <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
+                    <meta name="keywords" content="YouTube thumbnails, YouTube Thumbnail Downloader, download YouTube thumbnails" />
                     <meta name="author" content="https://www.youtubethambledownload.com/" />
-                        <meta name="robots" content="index, follow" />
-                        <meta property="og:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
-                        <meta property="og:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
-                        <meta property="og:type" content="website" />
+                    <meta name="robots" content="index, follow" />
+                    <meta property="og:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
+                    <meta property="og:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
+                    <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://www.youtubethambledownload.com" />
                     <meta property="og:image" content="https://www.youtubethambledownload.com/og-image.jpg" />
-                        <meta name="twitter:card" content="summary_large_image" />
-                        <meta name="twitter:creator" content="@yourtwitterhandle" />
-                        <meta name="twitter:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
-                        <meta name="twitter:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:creator" content="@yourtwitterhandle" />
+                    <meta name="twitter:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
+                    <meta name="twitter:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
                     <meta name="twitter:image" content="https://www.youtubethambledownload.com/twitter-image.jpg" />
 
-                    {/*<script async src={`https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV`} />
-                    <script
-*/}
-                    
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5342472284328375" crossorigin="anonymous"></script>
-                        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <script
-                            dangerouslySetInnerHTML={{
-                                __html: `
-                                (adsbygoogle = window.adsbygoogle || []).push({
-                                    google_ad_client: "ca-pub-5342472284328375",  // Your AdSense client ID
-                                    enable_page_level_ads: true
-                                });
-                            `,
-                            }}
-                        />
-                    
-
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5342472284328375"
-                        crossorigin="anonymous"></script>
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    {/* Google Analytics */}
+                    <script async src={`https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV`} />
                     <script
                         dangerouslySetInnerHTML={{
                             __html: `
-                (adsbygoogle = window.adsbygoogle || []).push({
-                  google_ad_client: "ca-pub-5342472284328375",  // Your AdSense client ID
-                  enable_page_level_ads: true
-                });
-              `,
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+                                gtag('config', 'G-3MKHDXG3WV');
+                            `
+                        }}
+                    />
+
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5342472284328375" crossorigin="anonymous"></script>
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                                (adsbygoogle = window.adsbygoogle || []).push({
+                                    google_ad_client: "ca-pub-5342472284328375",
+                                    enable_page_level_ads: true
+                                });
+                            `
+                        }}
+                    />
+
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5342472284328375" crossorigin="anonymous"></script>
+                    <script
+                        dangerouslySetInnerHTML={{
+                            __html: `
+                                (adsbygoogle = window.adsbygoogle || []).push({
+                                    google_ad_client: "ca-pub-5342472284328375",
+                                    enable_page_level_ads: true
+                                });
+                            `
                         }}
                     />
                 </Head>
