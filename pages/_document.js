@@ -9,15 +9,7 @@ class MyDocument extends Document {
             <Html lang="en-us">
                 
                     <Head>
-                    <!-- Google tag (gtag.js) -->
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV"></script>
-                    <script>
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-
-                        gtag('config', 'G-3MKHDXG3WV');
-                    </script>
+                        {/* Add your meta tags, stylesheets, and scripts here */}
                         <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
                         <meta name="keywords" content="YouTube thumbnails, YouTube Thumbnail Downloader, download YouTube thumbnails" />
                     <meta name="author" content="https://www.youtubethambledownload.com/" />
