@@ -23,7 +23,7 @@ class MyDocument extends Document {
                     <meta name="twitter:title" content="YouTube Thumbnail Downloader - Easily Download YouTube Thumbnails" />
                     <meta name="twitter:description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Get thumbnails in various sizes for your creative projects." />
                     <meta name="twitter:image" content="https://www.youtubethambledownload.com/twitter-image.jpg" />
-                    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                    <link rel="icon" type="image/png" sizes="32x32" href="/C:\Users\HP\Desktop\github\youthumb\public\favicon.png" />
 
                     {/* Google Analytics */}
                     <script async src={`https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV`} />
