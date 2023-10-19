@@ -9,7 +9,7 @@ class MyDocument extends Document {
             <Html lang="en-us">
                 <Head>
                     {/* Add your meta tags, stylesheets, and scripts here */}
-                    <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Save thumbnails of YouTube videos in Full HD (1080), HD (720), SD, and tiny sizes. Get excellent thumbnail photos from any YouTube video and use them for your creative projects. YouTube videos in HD, HQ, 1080p, and 4K are supported formats. Explore the potential of YouTube thumbnails and enhance your presentations and content. Visit YouTubeThumbnailDownloader.com."." />
+                    <meta name="description" content="Download YouTube thumbnails easily and quickly with YouTube Thumbnail Downloader. Save thumbnails of YouTube videos in Full HD (1080), HD (720), SD, and tiny sizes. Get excellent thumbnail photos from any YouTube video and use them for your creative projects. YouTube videos in HD, HQ, 1080p, and 4K are supported formats. Explore the potential of YouTube thumbnails and enhance your presentations and content. Visit YouTubeThumbnailDownloader.com." />
                     <meta name="keywords" content="YouTube thumbnails, YouTube Thumbnail Downloader, download YouTube thumbnails" />
                     <meta name="author" content="https://www.youtubethambledownload.com/" />
                     <meta name="robots" content="index, follow" />
@@ -28,13 +28,13 @@ class MyDocument extends Document {
                     {/* Google Analytics */}
                     <script async src={`https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV`} />
                     <script
-                        dangerouslySetInnerHTML={{  
+                        dangerouslySetInnerHTML={{
                             __html: `
-                                window.dataLayer = window.dataLayer || [];
-                                function gtag(){dataLayer.push(arguments);}
-                                gtag('js', new Date());
-                                gtag('config', 'G-3MKHDXG3WV');
-                            `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-3MKHDXG3WV');
+            `
                         }}
                     />
 
@@ -42,11 +42,11 @@ class MyDocument extends Document {
                     <script
                         dangerouslySetInnerHTML={{
                             __html: `
-                                (adsbygoogle = window.adsbygoogle || []).push({
-                                    google_ad_client: "ca-pub-5342472284328375",
-                                    enable_page_level_ads: true
-                                });
-                            `
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-5342472284328375",
+                    enable_page_level_ads: true
+                });
+            `
                         }}
                     />
 
@@ -54,14 +54,15 @@ class MyDocument extends Document {
                     <script
                         dangerouslySetInnerHTML={{
                             __html: `
-                                (adsbygoogle = window.adsbygoogle || []).push({
-                                    google_ad_client: "ca-pub-5342472284328375",
-                                    enable_page_level_ads: true
-                                });
-                            `
+                (adsbygoogle = window.adsbygoogle || []).push({
+                    google_ad_client: "ca-pub-5342472284328375",
+                    enable_page_level_ads: true
+                });
+            `
                         }}
                     />
                 </Head>
+
                 <body>
                     <nav className="nav">
                         {/* ... */}
