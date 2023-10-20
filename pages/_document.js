@@ -25,7 +25,14 @@ class MyDocument extends Document {
                     <meta name="twitter:image" content="https://www.youtubethambledownload.com/twitter-image.jpg" />
                     <link rel="icon" type="image/png" sizes="32x32" href="/C:\Users\HP\Desktop\github\youthumb\public\favicon.png" />
 
-                    {/* Google Analytics */}
+                    <amp-ad width="100vw" height="320"
+                        type="adsense"
+                        data-ad-client="ca-pub-5342472284328375"
+                        data-ad-slot="9115705631"
+                        data-auto-format="rspv"
+                        data-full-width="">
+                        <div overflow=""></div>
+                    </amp-ad>
                     <script async src={`https://www.googletagmanager.com/gtag/js?id=G-3MKHDXG3WV`} />
                     <script
                         dangerouslySetInnerHTML={{
